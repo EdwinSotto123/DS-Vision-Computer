@@ -3,14 +3,14 @@ import numpy as np
 from ultralytics import YOLO
 import os   
 # Cargar los modelos de YOLOv8
-model_segmentation = YOLO(r"D:\YoloV82024\deepfashion2_yolov8s-seg.pt")
+model_segmentation = YOLO("deepfashion2_yolov8s-seg.pt")
 model_person = YOLO(r"yolov8n.pt")
 
 # Definir las clases
 class_names = [
-    "short_sleeved_shirt", "long_sleeved_shirt", "short_sleeved_outwear", 
-    "long_sleeved_outwear", "vest", "sling", "shorts", "trousers", 
-    "skirt", "short_sleeved_dress", "long_sleeved_dress", "vest_dress", "sling_dress"
+    "camisa_manga_corta", "camisa_manga_larga", "abrigo_manga_corta", 
+    "abrigo_manga_larga", "Chaleco", "Top_con_tirantes", "shorts", "pantalones", 
+    "falda", "vestido_manga_corta", "vestido_manga_larga", "vestido_tipo_chaleco", "vestido_con_tirantes"
 ]
 
 # Definir rangos de color en HSV (más extensos y específicos)
@@ -91,7 +91,7 @@ def remove_overlap(mask1, mask2):
     return cv2.subtract(mask1, mask2)
 
 # Cargar la imagen en la que se va a realizar la inferencia
-image_path = r"D:\descargas\images (3).jpg" # Reemplaza con la ruta a tu imagen
+image_path = r"ruta de imagen" # Reemplaza con la ruta a tu imagen
 frame = cv2.imread(image_path)
 
 # Detección de personas en la imagen
@@ -166,17 +166,14 @@ def process_image(image_path, output_folder):
 
 # Lista de imágenes a procesar
 image_paths = [
-    r"D:\descargas\group-of-multiethnic-business-people-in-the-office-ai-generated-photo.jpg",
-    r"D:\descargas\como-combinar-colores_80aba451_1280x853.jpeg",
-    r"D:\descargas\depositphotos_59954731-stock-photo-large-group-of-people.jpg",
-    r"D:\descargas\habían-muchas-personas (1).jpg",
-    r"D:\descargas\images (2).jpg",
-    r"D:\descargas\images (3).jpg",
-    r"D:\descargas\gente-vestida-de-diferentes-colores.jpg"
+    r"ruta de imagen",
+    r"ruta de imagen",
+    r"ruta de imagen",
+    r"ruta de imagen"
 ]
 
 # Carpeta de salida para las imágenes procesadas
-output_folder = r"D:\YoloV82024\processed_images"
+output_folder = r"ruta al folder de salida"
 
 # Crear la carpeta de salida si no existe
 os.makedirs(output_folder, exist_ok=True)
