@@ -35,3 +35,5 @@ Este es el archivo principal de la aplicación Streamlit que maneja la lógica d
   - **Fuente de Medios**: El usuario puede seleccionar entre varias fuentes de medios, como la webcam, subir videos o imágenes, o usar contenido predefinido.
   - **Procesamiento en Tiempo Real**: Usa el modelo seleccionado para detectar armas en tiempo real en la fuente de medios elegida.
   - **Visualización de Resultados**: Muestra las predicciones directamente en el navegador utilizando la interfaz de Streamlit.
+
+![image](https://github.com/user-attachments/assets/05477e1a-a6b9-4ca9-9719-ea9a8dd28589)
