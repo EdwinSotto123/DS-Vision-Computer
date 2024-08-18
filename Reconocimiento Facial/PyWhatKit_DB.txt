@@ -1,0 +1,11 @@
+Date: 28/11/2023
+Time: 22:48
+Group ID: XXXXXXXXXX
+Image: C:\\Users\\USER\\Desktop\\Modelo\\FOTOMANO\XXXXXXX_28-11-23_10-48-PM.jpg
+Caption: DNI: XXXXXXX, HORA DE INGRESO: 28-11-23_10-48-PM, MOTIVO: TRAMITE
+--------------------
+Date: 28/11/2023
+Time: 22:49
+Group ID: XXXXXXX
+Image: C:\\Users\\USER\\Desktop\\Modelo\\FOTOMANO\XXXXXXX_28-11-23_10-49-PM.jpg
+Caption: DNI: XXXXXXX, HORA DE INGRESO: 28-11-23_10-49-PM, MOTIVO: TRAMITE

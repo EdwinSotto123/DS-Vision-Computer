@@ -1,0 +1,10 @@
+Pillow
+opencv-python
+dlib
+face-recognition
+tk
+numpy
+mediapipe
+pandas
+pywhatkit
+psutil
