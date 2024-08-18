@@ -43,3 +43,8 @@ Para instalar todas las dependencias necesarias, asegúrate de tener un entorno 
 
 ```bash
 pip install -r requerimientosFR.txt
+
+```
+## Demostracion de interfaz
+![image](https://github.com/user-attachments/assets/8852148e-d27f-413b-bec8-26b1fe7b0610)
+
