@@ -55,3 +55,9 @@ El modelo YOLOv8 se utiliza en este proyecto para la detección de personas en l
 
 3. **Resultados**:
    - Las imágenes procesadas se guardarán en la carpeta especificada como `output_folder`, con las prendas segmentadas y los colores dominantes etiquetados.
+
+### IMAGEN SIN PROCESAR
+![image](https://github.com/user-attachments/assets/9eb34508-3d5f-4d0e-8bec-b87ca58b0610)
+### IMAGEN PROCESADA 
+![image](https://github.com/user-attachments/assets/92887282-3fb1-42ca-b2c0-b9c484b550cb)
+
